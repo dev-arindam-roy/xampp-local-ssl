@@ -10,7 +10,7 @@ Copy "makecert" & "cert.conf" files over there (xampp\apache\crt)\
 also a .zip available, extract and get the batch file - "makecert"
 
 ### STEP-3:
-Now open the file - "cert.conf" and edit below fields -\
+Now open the file - "cert.conf" and edit below fields -
 1) commonName_default = YOUR_SITE_NAME (ex:onexcrm.local)
 2) emailAddress_default = YOUR_EMAIL_ADDRESS (ex:abc@gmail.com)
 3) DNS.1 = YOUR_SITE_NAME (ex:onexcrm.local) (same with above)\
@@ -20,7 +20,7 @@ Now open the file - "cert.conf" and edit below fields -\
 Now run the batch file - "makecert", just click on it\
 It will ask few things, just fill-up\
 When it done then a folder of your site name will be created into the "apache\crt" directory\
-With this new folder 2 files will be available\
+With this new folder 2 files will be available
 1) server (certificate file)
 2) server.key (certificate key file)
 
@@ -72,9 +72,9 @@ and set your domain with the local ip, like -\
 
 ### STEP-8:
 Now open your site in browser\
-your-site.local\
-http://your-site.local\
-https://your-site.local\
+your-site.local \
+http://your-site.local \
+https://your-site.local \
 all will work!
 
 ### Done!!!
