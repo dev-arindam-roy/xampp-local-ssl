@@ -10,7 +10,7 @@ Copy "makecert" & "cert.conf" files over there (xampp\apache\crt)\
 also a .zip available, extract and get the batch file - "makecert"
 
 ### STEP-3:
-Now open the file - "cert.conf" and edit below fields - \
+Now open the file - "cert.conf" and edit below fields -\
 1) commonName_default = YOUR_SITE_NAME (ex:onexcrm.local)
 2) emailAddress_default = YOUR_EMAIL_ADDRESS (ex:abc@gmail.com)
 3) DNS.1 = YOUR_SITE_NAME (ex:onexcrm.local) (same with above)\
@@ -29,9 +29,9 @@ Now need to install the certificate file\
 click on it and install it
 
 ### STEP-6:
-Now go to your "httpd-vhosts.conf" file \
+Now go to your "httpd-vhosts.conf" file\
 ex: G:\xampp\apache\conf\extra\httpd-vhosts.conf\
-and set the domain with below code snippets \
+and set the domain with below code snippets\
 once done, save the "httpd-vhosts.conf" file and restart your xampp
 
 ```
@@ -67,11 +67,11 @@ once done, save the "httpd-vhosts.conf" file and restart your xampp
 ```
 ### STEP-7:
 Now go to "C:\Windows\System32\drivers\etc\" this path and open 'hosts' file\
-and set your domain with the local ip, like - \
+and set your domain with the local ip, like -\
 127.0.0.1  your-site.local
 
 ### STEP-8:
-Now open your site in browser \
+Now open your site in browser\
 your-site.local\
 http://your-site.local\
 https://your-site.local\
